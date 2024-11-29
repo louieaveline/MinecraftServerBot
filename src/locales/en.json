@@ -1,0 +1,98 @@
+{
+  "admtask": {
+    "no_permission": "You do not have permission to use this command.",
+    "wrong_channel": "This command cannot be used in this channel.",
+    "invalid_task_number": "Invalid task number. Use 1, 2, or 3.",
+    "error_reading_file": "Error reading the tasks status file.",
+    "error_updating_file": "Error updating the task status file.",
+    "title": "Task Status Updated",
+    "task": "Task",
+    "cancelled": "marked as not completed", 
+    "completed": "marked as complet ed",
+    "for": "for",
+    "task_updated": "Task updated",
+    "task_number": "Task",
+    "task_completed": "marked as completed",
+    "task_cancelled": "marked as cancelled"
+  },
+  "help": {
+    "title": "Available Commands",
+    "description": "Here are all the available commands you can use.",
+    "section": {
+      "user": "User Commands",
+      "server": "Server Commands",
+      "admin": "Admin Commands"
+    },
+    "userCommands": "Commands available for general users:",
+    "serverCommands": "Commands for server management:",
+    "adminCommands": "Commands for administrators:",
+    "footer": "Multipurpose Bot • /help • All Commands",
+    "user": {
+      "status": "Use this command to check the status of the Minecraft server.",
+      "report": "Use this to see a summary of the current week's server activities.",
+      "setlanguage": "Define the language the bot should use with you."
+    },
+    "admin": {
+      "mark_task": "Use this to mark the status of your tasks as completed or not completed.",
+      "admin_task": "Admin command to mark the status of a specific user's task.",
+      "announce": "Send an announcement with support for images/videos and embed format.",
+      "user_info": "Provides detailed information about a user, including their nickname, server entry date, total messages, and more."
+    }
+  },
+  "status": {
+    "title": "Server Status",
+    "onlineMessage": "Server is Online!",
+    "offlineMessage": "Server is offline at the moment, might be restarting?",
+    "noPlayers": "No players online",
+    "updatedAt": "Last updated at",
+    "serverStatus": "Status",
+    "welcomeMessage": "Welcome message",
+    "onlineUsers": "Online users",
+    "of": "of",
+    "players": "players",
+    "playerList": "Player list",
+    "possibleChildren": "Possible mascots online",
+    "errorFetching": "Error fetching server status"
+  },
+  "announce": {
+    "noPermission": "You do not have permission to use this command.",
+    "askForText": "Please send the announcement text.",
+    "announcementSending": "The announcement is being sent.",
+    "announcementSuccess": "Announcement sent successfully!",
+    "errorSending": "An error occurred while sending the announcement.",
+    "timeExpired": "Time expired to send the message."
+  },
+  "info": {
+    "title": "User Info",
+    "description": "View completed and incomplete tasks for a user.",
+    "userNotFound": "User not found.",
+    "taskStatus": "Task Status",
+    "taskCompleted": ":white_check_mark: Completed",
+    "taskNotCompleted": ":no_entry: Not Completed",
+    "lifeStatus": "Life Status",
+    "userProfile": "User Profile",
+    "errorReadingFile": "Error reading the task status file."
+  },
+  "report": {
+    "description": "Displays the task status report for all users.",
+    "none": "None",
+    "task_update": "Task Status Update",
+    "completed_all": "Completed All Tasks",
+    "missing_some": "Missing Some Tasks"
+  },
+  "setlanguage": {
+    "alreadyInSelectedLanguage": "You are already using this language.",
+    "languageChanged": "Your language has been changed to English.",
+    "error": "An error occurred: {error}"
+  },
+    "mark": {
+      "command_not_allowed": "This command cannot be used in this server.",
+      "wrong_channel": "This command cannot be used in this channel.",
+      "invalid_task_number": "Invalid task number. Use 1, 2, or 3.",
+      "invalid_status": "Invalid status. Use 'completed' or 'not completed'.",
+      "user_not_found": "You are not listed in the users file.",
+      "error_saving_file": "Error saving task status.",
+      "task_updated_title": "Task Status Updated",
+      "task_updated_description": "Task {taskNumber} has been marked as {status}!"
+    }
+}

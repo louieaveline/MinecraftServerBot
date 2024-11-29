@@ -1,6 +1,6 @@
-# Pink Soda Bot - Multipurpose bot
+# Minecraft Server - Multipurpose discord bot
 
-This bot offers commands for managing a Minecraft server, user and administrator tasks, as well as language customization. Below are all the available commands and their descriptions.
+This bot offers commands for managing a Discord guild for a Minecraft server, user and administrator tasks, as well as language customization. Below are all the available commands and their descriptions.
 
 ## User Commands
 
@@ -36,7 +36,7 @@ Displays a status report on all users' tasks for administrators.
 
 ## Multilingual Support
 
-The “Pink Soda Bot” bot offers multilingual support, allowing users to choose the language in which they interact with the bot.
+This bot bot offers multilingual support, allowing users to choose the language in which they interact with the bot.
 
 ### How to change the language
 

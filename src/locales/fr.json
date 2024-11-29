@@ -1,0 +1,98 @@
+{
+  "admtask": {
+    "no_permission": "Vous n'avez pas la permission d'utiliser cette commande.",
+    "wrong_channel": "Cette commande ne peut pas être utilisée dans ce canal.",
+    "invalid_task_number": "Numéro de tâche invalide. Utilisez 1, 2 ou 3.",
+    "error_reading_file": "Erreur lors de la lecture du fichier des statuts des tâches.",
+    "error_updating_file": "Erreur lors de la mise à jour du fichier des statuts des tâches.",
+    "title": "Statut de la tâche mis à jour",
+    "task": "Tâche",
+    "cancelled": "marquée comme non complétée",
+    "completed": "marquée comme complétée",
+    "for": "pour",
+    "task_updated": "Tâche mise à jour",
+    "task_number": "Tâche",
+    "task_completed": "marquée comme complétée",
+    "task_cancelled": "marquée comme annulée"
+  },
+  "help": {
+    "title": "Commandes disponibles",
+    "description": "Voici toutes les commandes disponibles que vous pouvez utiliser.",
+    "section": {
+      "user": "Commandes utilisateurs",
+      "server": "Commandes serveur",
+      "admin": "Commandes administrateurs"
+    },
+    "userCommands": "Commandes disponibles pour les utilisateurs généraux :",
+    "serverCommands": "Commandes pour la gestion du serveur :",
+    "adminCommands": "Commandes pour les administrateurs :",
+    "footer": "Multipurpose Bot • /help • Toutes les commandes",
+    "user": {
+      "status": "Utilisez cette commande pour vérifier le statut du serveur Minecraft.",
+      "report": "Utilisez cette commande pour voir un résumé des activités du serveur de la semaine en cours.",
+      "setlanguage": "Définir la langue que le bot doit utiliser avec vous."
+    },
+    "admin": {
+      "mark_task": "Utilisez cette commande pour marquer l'état de vos tâches comme complétées ou non complétées.",
+      "admin_task": "Commande administrateur pour marquer l'état de la tâche d'un utilisateur spécifique.",
+      "announce": "Envoyer une annonce avec prise en charge des images/vidéos et du format intégré.",
+      "user_info": "Fournit des informations détaillées sur un utilisateur, y compris son pseudo, la date d'entrée sur le serveur, le nombre total de messages, et plus."
+    }
+  },
+  "status": {
+    "title": "Statut d'Serveur",
+    "onlineMessage": "Le serveur est en ligne !",
+    "offlineMessage": "Le serveur est hors ligne pour le moment, peut-être en train de redémarrer ?",
+    "noPlayers": "Aucun joueur en ligne",
+    "updatedAt": "Dernière mise à jour à",
+    "serverStatus": "Statut",
+    "welcomeMessage": "Message de bienvenue",
+    "onlineUsers": "Utilisateurs en ligne",
+    "of": "de",
+    "players": "joueurs",
+    "playerList": "Liste des joueurs",
+    "possibleChildren": "Possibles mascottes en ligne",
+    "errorFetching": "Erreur lors de la récupération du statut du serveur"
+  },
+  "announce": {
+    "noPermission": "Vous n'avez pas la permission d'utiliser cette commande.",
+    "askForText": "Veuillez envoyer le texte de l'annonce.",
+    "announcementSending": "L'annonce est en cours d'envoi.",
+    "announcementSuccess": "Annonce envoyée avec succès !",
+    "errorSending": "Une erreur s'est produite lors de l'envoi de l'annonce.",
+    "timeExpired": "Le temps pour envoyer le message a expiré."
+  },
+  "info": {
+    "title": "Infos utilisateur",
+    "description": "Voir les tâches complétées et non complétées pour un utilisateur.",
+    "userNotFound": "Utilisateur non trouvé.",
+    "taskStatus": "Statut de la tâche",
+    "taskCompleted": ":white_check_mark: Complétée",
+    "taskNotCompleted": ":no_entry: Non complétée",
+    "lifeStatus": "Statut de vie",
+    "userProfile": "Profil utilisateur",
+    "errorReadingFile": "Erreur lors de la lecture du fichier de statut des tâches."
+  },
+  "report": {
+    "description": "Affiche le rapport de statut des tâches pour tous les utilisateurs.",
+    "none": "Aucun",
+    "task_update": "Mise à jour du statut des tâches",
+    "completed_all": "Toutes les tâches complétées",
+    "missing_some": "Certaines tâches manquantes"
+  },
+  "setlanguage": {
+    "alreadyInSelectedLanguage": "Vous utilisez déjà cette langue.",
+    "languageChanged": "Votre langue a été changée en français.",
+    "error": "Une erreur s'est produite : {error}"
+  },
+  "mark": {
+    "command_not_allowed": "Cette commande ne peut pas être utilisée sur ce serveur.",
+    "wrong_channel": "Cette commande ne peut pas être utilisée dans ce canal.",
+    "invalid_task_number": "Numéro de tâche invalide. Utilisez 1, 2 ou 3.",
+    "invalid_status": "Statut invalide. Utilisez 'complétée' ou 'non complétée'.",
+    "user_not_found": "Vous n'êtes pas répertorié dans le fichier des utilisateurs.",
+    "error_saving_file": "Erreur lors de l'enregistrement du statut de la tâche.",
+    "task_updated_title": "Statut de la tâche mis à jour",
+    "task_updated_description": "La tâche {taskNumber} a été marquée comme {status}!"
+  }
+}

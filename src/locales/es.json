@@ -1,0 +1,98 @@
+{
+  "admtask": {
+    "no_permission": "No tienes permiso para usar este comando.",
+    "wrong_channel": "Este comando no se puede usar en este canal.",
+    "invalid_task_number": "Número de tarea inválido. Usa 1, 2 o 3.",
+    "error_reading_file": "Error al leer el archivo de estado de las tareas.",
+    "error_updating_file": "Error al actualizar el archivo de estado de las tareas.",
+    "title": "Estado de la tarea actualizado",
+    "task": "Tarea",
+    "cancelled": "marcada como no completada",
+    "completed": "marcada como completada",
+    "for": "para",
+    "task_updated": "Tarea actualizada",
+    "task_number": "Tarea",
+    "task_completed": "marcada como completada",
+    "task_cancelled": "marcada como no completada"
+  },
+  "help": {
+    "title": "Comandos disponibles",
+    "description": "Aquí están todos los comandos disponibles que puedes usar.",
+    "section": {
+      "user": "Comandos de usuario",
+      "server": "Comandos de servidor",
+      "admin": "Comandos de administrador"
+    },
+    "userCommands": "Comandos disponibles para usuarios generales:",
+    "serverCommands": "Comandos para la gestión del servidor:",
+    "adminCommands": "Comandos para administradores:",
+    "footer": "Multipurpose Bot • /help • Todos los comandos",
+    "user": {
+      "status": "Usa este comando para verificar el estado del servidor de Minecraft.",
+      "report": "Usa este comando para ver un resumen de las actividades del servidor de la semana.",
+      "setlanguage": "Define el idioma que el bot debe usar contigo."
+    },
+    "admin": {
+      "mark_task": "Usa este comando para marcar el estado de tus tareas como completadas o no completadas.",
+      "admin_task": "Comando de administrador para marcar el estado de la tarea de un usuario específico.",
+      "announce": "Envía un anuncio con soporte para imágenes/videos y formato embed.",
+      "user_info": "Proporciona información detallada sobre un usuario, incluyendo su apodo, fecha de entrada al servidor, total de mensajes, y más."
+    }
+  },
+  "status": {
+    "title": "Estado del servidor",
+    "onlineMessage": "¡El servidor está en línea!",
+    "offlineMessage": "El servidor está fuera de línea en este momento, ¿tal vez está reiniciando?",
+    "noPlayers": "No hay jugadores en línea",
+    "updatedAt": "Última actualización a",
+    "serverStatus": "Estado",
+    "welcomeMessage": "Mensaje de bienvenida",
+    "onlineUsers": "Usuarios en línea",
+    "of": "de",
+    "players": "jugadores",
+    "playerList": "Lista de jugadores",
+    "possibleChildren": "Posibles mascotas en línea",
+    "errorFetching": "Error al obtener el estado del servidor"
+  },
+  "announce": {
+    "noPermission": "No tienes permiso para usar este comando.",
+    "askForText": "Por favor, envía el texto del anuncio.",
+    "announcementSending": "El anuncio está siendo enviado.",
+    "announcementSuccess": "¡Anuncio enviado con éxito!",
+    "errorSending": "Ocurrió un error al enviar el anuncio.",
+    "timeExpired": "El tiempo para enviar el mensaje ha expirado."
+  },
+  "info": {
+    "title": "Información del usuario",
+    "description": "Ver tareas completadas y no completadas para un usuario.",
+    "userNotFound": "Usuario no encontrado.",
+    "taskStatus": "Estado de la tarea",
+    "taskCompleted": ":white_check_mark: Completada",
+    "taskNotCompleted": ":no_entry: No completada",
+    "lifeStatus": "Estado de vida",
+    "userProfile": "Perfil del usuario",
+    "errorReadingFile": "Error al leer el archivo de estado de las tareas."
+  },
+  "report": {
+    "description": "Muestra el reporte de estado de las tareas de todos los usuarios.",
+    "none": "Ninguno",
+    "task_update": "Actualización de estado de la tarea",
+    "completed_all": "Todas las tareas completadas",
+    "missing_some": "Algunas tareas faltantes"
+  },
+  "setlanguage": {
+    "alreadyInSelectedLanguage": "Ya estás usando este idioma.",
+    "languageChanged": "Tu idioma ha sido cambiado a español.",
+    "error": "Ocurrió un error: {error}"
+  },
+  "mark": {
+    "command_not_allowed": "Este comando no se puede usar en este servidor.",
+    "wrong_channel": "Este comando no se puede usar en este canal.",
+    "invalid_task_number": "Número de tarea inválido. Usa 1, 2 o 3.",
+    "invalid_status": "Estado inválido. Usa 'completada' o 'no completada'.",
+    "user_not_found": "No estás listado en el archivo de usuarios.",
+    "error_saving_file": "Error al guardar el estado de la tarea.",
+    "task_updated_title": "Estado de la tarea actualizado",
+    "task_updated_description": "La tarea {taskNumber} ha sido marcada como {status}!"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "users": {
+    "UserID1": "Mascot 1",
+    "UserID2": "Mascot 2",
+    "UserID3": "Mascot 3",
+    "UserID4": "Mascot 4"
+  },
+  "admin_ids": [
+    "ID",
+  ],
+  "channel_ids": {
+    "report_channel": "ID",
+    "private_channel": "ID", 
+    "log_channel": "ID"
+  },  
+  "first_guild": { 
+    "guildID": "ID",
+    "report_channel": "ID",
+    "command_channel": "ID"
+  },
+  "second_guild": {
+    "guildID": "ID",
+    "report_channel": "ID",
+    "command_channel": "ID",
+    "log_channel": "ID"
+  }
+}
