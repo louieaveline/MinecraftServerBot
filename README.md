@@ -75,6 +75,7 @@ If you would like to contribute improvements to the translations or add a new la
 ```sh
 git clone https://github.com/0x50F14/MinecraftServerBot
 cd MinecraftServerBot
+cd src
 ```
 
 ### 2️⃣ Configure the data files  
