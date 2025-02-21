@@ -7,7 +7,7 @@ This bot offers commands for managing a Discord guild for a Minecraft server, us
 ### `/status`
 Displays the current status of the Minecraft server, including whether it is online or offline and the list of online players.
 
-### `/report`
+### `/info`
 Displays a summary of the status of tasks for all users, showing who has or has not completed the tasks.
 
 ### `/setlanguage`
@@ -28,9 +28,6 @@ Allows marking the status of tasks for a specific user.
 
 ### `/userinfo`
 Displays detailed information about a user, including nickname, date of joining the server, and messages sent.
-
-### `/adminreport`
-Displays a status report on all users' tasks for administrators.
 
 ---
 
